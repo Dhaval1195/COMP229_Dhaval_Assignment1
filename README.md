@@ -1,2 +1,2 @@
-# COMP229_Assignment1_SohyeonSong
+# COMP229_Dhaval_Assignment1
  COMP229_Assignment1
