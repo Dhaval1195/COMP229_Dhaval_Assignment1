@@ -1,0 +1,51 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+<main class="container" >
+    <div class="mt-5" >
+        <div class="rounded " >
+            <h3>Dhavalbhai Patel</h3>
+            <h3><a href="mailto:dpate962@my.centennialcollege.ca">Email: dpate962@my.centennialcollege.ca</a></h3>
+            <h3>Phone Number: 416-893-9923</h3>
+        </div>
+      <div >
+        <h1 >Contact Me!</h1>
+        <h3 >Please complete this form to contact me</h3>
+        <form>
+            <div class="mb-3">
+                <label ><h3 >First Name</h3></label>
+                <input type="text" class="col-sm-12"  required="required">
+            </div>
+            <div class="mb-3">
+                <label ><h3 > Last Name</h3></label>
+                <input type="text" class="col-sm-12"  required="required">
+            </div><br>
+            <div class="mb-3">
+                <label ><h3 >Phone Number</h3></label><br>
+                <input type="text" class="col-sm-12"  required="required">
+            </div>
+            <div class="mb-3">
+                <label ><h3 >Email address</h3></label>
+                <input type="email" class="col-sm-12"  placeholder="name@example.com"required="required">
+            </div>
+            <button type="submit" class="btn btn-outline-success"  onclick="showPopup();">Submit Info</button>&nbsp;&nbsp;&nbsp;
+            <!--Clear form-->
+            <button type="reset" class="btn btn-outline-warning">Clear Form</button>
+        </form>
+
+    </div>
+  </main>
+
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
+
+
+
+
+
+
+
+
